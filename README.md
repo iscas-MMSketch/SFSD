@@ -2,7 +2,7 @@
 
 This repository hosts the SFSD dataset. Please refer to our paper for more information: ["Stroke-based semantic segmentation for scene-level free-hand sketches"](https://link.springer.com/article/10.1007/s00371-022-02731-8). 
 
-**Download**: [SFSD]()
+**Download**: [SFSD](https://drive.google.com/drive/folders/1L8NlMzubCqz85iFRiOU2WwRrGHNCrmwv?usp=sharing)
 
 ## Overview
 

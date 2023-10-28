@@ -18,7 +18,7 @@ This repository hosts the SFSD dataset. Please refer to our paper for more infor
 
 ### Dataset Summary
 
-Our **Scene-level Free-hand Sketch Dataset (SFSD)** has the characteristics of scene-level, completely free-hand, multi-modal, and vector storage data format. SFSD is composed of **12K** sketch-photo pairs over **40** object categories, where the sketches were completely hand-drawn and each contains 7 objects on average. In addition to the semantic segmentation addressed in this paper, SFSD can also support retrieval, generation, and other sketch-related tasks as well.
+Our **Scene-level Free-hand Sketch Dataset (SFSD)** has the characteristics of scene-level, completely free-hand, multi-modal, and vector storage data format. SFSD is composed of **12100** sketch-photo pairs over **40** object categories, where the sketches were completely hand-drawn and each contains 7 objects on average. In addition to the semantic segmentation addressed in this paper, SFSD can also support retrieval, generation, and other sketch-related tasks as well.
 
 ### Dataset Construction Process
 
@@ -32,19 +32,19 @@ The construction of SFSD involved the following three phases:
 
 Example sketch-photo pairs in SFSD. The sketch shown was annotated at the instance level. 
 
-<img src="C:%5CUsers%5C123%5CDesktop%5CSnipaste_2023-09-28_15-47-44.png" alt="Snipaste_2023-09-28_15-47-44" style="zoom:60%;" />
+<img src="Snipaste_2023-09-28_15-47-44.png" alt="Snipaste_2023-09-28_15-47-44" style="zoom:60%;" />
 
 Scene-level sketch segmentation aims to predict class label of **each stroke** in scene sketch, which outperforms object-level segmentation of a large margin in the aspect of semantic context.
 
-<img src="C:%5CUsers%5C123%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1695886975350.png" alt="1695886975350" style="zoom:67%;" />
+<img src="1695886975350.png" alt="1695886975350" style="zoom:67%;" />
 
 ### Dataset Structure
 
 ```
 SFSD
 ├── images
-├── sketch		           (contains stroke information)
-└── sketchImg
+├── sketches		           (contains stroke information)
+└── sketchImgs
 ```
 
 ## Dataset Statistics and Analysis

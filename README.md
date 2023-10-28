@@ -47,10 +47,6 @@ SFSD
 └── sketchImgs
 ```
 
-## Dataset Statistics and Analysis
-
-The following table shows comparison of different sketch components with existing scene sketch datasets, ranging from strokes, objects to categories. Our dataset contains **40** categories, more than twice the number of categories in SketchyCOCO, which also referenced **real images**. In our dataset, sketches contain an average of **146 strokes**, which is much higher than previous single-object sketch dataset and can describe more details of the objects. Moreover, to the best of our knowledge, previous scene sketch datasets do not contain **stroke order information**.
-
 
 ## Citation
 

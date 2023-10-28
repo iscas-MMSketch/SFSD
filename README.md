@@ -44,8 +44,7 @@ Scene-level sketch segmentation aims to predict class label of **each stroke** i
 SFSD
 ├── images
 ├── sketch		           (contains stroke information)
-├── sketchImg
-└── categories_info.json   (category details)
+└── sketchImg
 ```
 
 ## Dataset Statistics and Analysis
